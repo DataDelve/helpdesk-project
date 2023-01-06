@@ -1,0 +1,39 @@
+    1  git config --list --show-origin
+    2  ls
+    3  git config -f .gitconfig
+    4  get config --global user.name "Jon Hoover"
+    5  git config --global user.name "Jon Hoover"
+    6  git config --global user.email jonhoover1@gmail.com
+    7  git config --list
+    8  cd /c/PROGRAMMING/Portfolio/git/
+    9  git init
+   10  git add .
+   11  git add LICENSE
+   12  git commit -m 'Initial project version'
+   13  echo "# portfolio" >> README.md
+   14  git commit -m 'add readme'
+   15  git add .
+   16  git commit -m 'add readme'
+   17  git branch -M main
+   18  git remote add origin https://github.com/DataDelve/portfolio.git
+   19  git push -u origin main
+   20  cat history >> history.txt
+   21  history
+   22  git add .
+   23  git commit -m 'adding history file'
+   24  git push -u origin main
+   25  git pull
+   26  git add .
+   27  git commit -m 'updated 01-05-2023'
+   28  git push
+   29  history
+   30  git pull
+   31  git add .
+   32  git commit -m 'Updated 2023-01-06'
+   33  git push
+   34  cd /c/PROGRAMMING/
+   35  mkdir helpdesk-project
+   36  cd helpdesk-project/
+   37  git init
+   38  history
+   39  history > history-2023-1-6.txt
